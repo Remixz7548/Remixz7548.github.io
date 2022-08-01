@@ -10,7 +10,7 @@
     $header = "Enviado desde la pagina de Grupo Contsulta";
     $mensajeCompleto = $mensaje . "\nAtentamente: " . $nombre;
 
-    mail($destinatario, $asunto, $mensajeCompleto, $header);
+    mail($destinatario, 'prueba', 'mensaje de prueba', 'prueba');
     echo "<script>alert('Correo Enviado Exitosamente')</script>";
     echo "<script>setTimeout(\"location.href='index.html'\",500)</script>";
 ?>
